@@ -1,0 +1,7 @@
+export PREFIX="$(pwd)/cross"
+export TARGET=i686-elf
+export PATH="$PREFIX/bin:$PATH"
+
+alias gcc="$PREFIX/bin/$TARGET-gcc"
+
+echo Cross-Compiler Exports Enabled
