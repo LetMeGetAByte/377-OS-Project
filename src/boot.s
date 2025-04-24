@@ -1,6 +1,7 @@
 .set ALIGN,		1<<0
 .set MEMINFO,	1<<1
-.set FLAGS,		ALIGN | MEMINFO
+.set FRMBUFF,	1<<12
+.set FLAGS,		ALIGN | MEMINFO | FRMBUFF
 .set MAGIC,		0x1BADB002
 .set CHECKSUM,	-(MAGIC + FLAGS)
 
