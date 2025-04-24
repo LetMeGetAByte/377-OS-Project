@@ -22,6 +22,8 @@ stack_ptr:
 .type _start, @function
 _start:
 	mov $stack_ptr, %esp
+	sub $12, %esp
+	push %ebx
 	call kernel_main
 	cli
 
