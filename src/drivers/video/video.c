@@ -29,3 +29,10 @@ void video_fill(uint32_t color) {
         }
     }
 }
+
+void video_draw_pixel(uint32_t x, uint32_t y, uint32_t color) {
+    if (!framebuffer || x >= fb_width || y >= fb_height) return;
+
+    uint32_t *pixel = (uint32_t *)((uint8_t *)framebuffer + y * fb_pitch + x * sizeof(uint32_t));
+    *pixel = color;
+}

@@ -6,5 +6,6 @@
 
 void video_init(struct multiboot_info *mbi);
 void video_fill(uint32_t color);
+void video_draw_pixel(uint32_t x, uint32_t y, uint32_t color);
 
 #endif
