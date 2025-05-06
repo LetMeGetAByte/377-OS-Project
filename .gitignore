@@ -1,2 +1,4 @@
 build/
 *.iso
+compile_commands.json
+.cache/
