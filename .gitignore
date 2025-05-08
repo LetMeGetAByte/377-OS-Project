@@ -2,3 +2,4 @@ build/
 *.iso
 .clang-format
 .cache
+compile_commands.json
