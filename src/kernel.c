@@ -12,4 +12,5 @@ void kernel_main(struct multiboot_info *mbi) {
     video_init(mbi);
     // byte order RGB --> 0xRRGGBB
     video_fill(0xFF0000);
+    video_draw_text("Hello\nWorld", 0, 0, 0xFFFFFF, 10);
 }

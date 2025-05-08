@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/home/Soup/Documents/GitHub/377-OS-Project/cross/bin/i686-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Isrc",
+      "-o",
+      "build/kernel.o",
+      "src/kernel.c"
+    ],
+    "directory": "/home/Soup/Documents/GitHub/377-OS-Project",
+    "file": "/home/Soup/Documents/GitHub/377-OS-Project/src/kernel.c",
+    "output": "/home/Soup/Documents/GitHub/377-OS-Project/build/kernel.o"
+  },
+  {
+    "arguments": [
+      "/home/Soup/Documents/GitHub/377-OS-Project/cross/bin/i686-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Isrc",
+      "-o",
+      "build/video.o",
+      "src/drivers/video/video.c"
+    ],
+    "directory": "/home/Soup/Documents/GitHub/377-OS-Project",
+    "file": "/home/Soup/Documents/GitHub/377-OS-Project/src/drivers/video/video.c",
+    "output": "/home/Soup/Documents/GitHub/377-OS-Project/build/video.o"
+  }
+]
